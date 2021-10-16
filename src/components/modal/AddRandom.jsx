@@ -11,9 +11,6 @@ const AddRandom = ({addRandom}) => {
         setInput(target.value)
     }
 
-    const listRandom = async() => {
-        addRandom(input)
-    }
 
     return(
         <>
