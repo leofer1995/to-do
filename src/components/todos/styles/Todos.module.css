@@ -67,18 +67,9 @@
     background-color: rgba(242,211,53,1);
 }
 
-.contPag{
-    margin-top: 20px;
-    display: flex;
-}
 
-.contPag button{
-    margin:0px 10px 0px 10px;
-    border:1px solid black;
-    border-radius: 5px;
-    background-color: #112140;
-    color: white;
-}
+
+
 
 @media (max-width: 720px) {
     .new {

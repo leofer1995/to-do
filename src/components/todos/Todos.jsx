@@ -46,12 +46,6 @@ const Todos = ({renderModal, todos, search}) => {
                         todo.done && <Todo todo={todo.fact} done={todo.done} key={i}/>:null
                 )}
             </div>
-            {/* {todos.length > 10 &&
-                <div className={styles.contPag}>
-                    <button>Anterior</button>
-                    <button>Siguiente</button>
-                </div>
-            } */}
         </div>
     )
 }

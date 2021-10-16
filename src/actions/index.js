@@ -18,7 +18,6 @@ export const addRandom = (numberTodos) => {
                 done: false,
             });
         }
-        console.log(todosAdd,'oeeeeeeeeeeeee')
         dispatch({
             type:'ADD_TODO_RANDOM',
             payload:todosAdd
