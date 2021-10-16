@@ -11,8 +11,6 @@ const Todos = ({renderModal, todos, search}) => {
         change:'Done',
     });
 
-    //const [search, setSearch] = useState('')
-
     const changeClick = () => {
         setRender({
             actual: render.change,
@@ -48,8 +46,12 @@ const Todos = ({renderModal, todos, search}) => {
                         todo.done && <Todo todo={todo.fact} done={todo.done} key={i}/>:null
                 )}
             </div>
-            <button>Anterior</button>
-            <button>Siguiente</button>
+            {/* {todos.length > 10 &&
+                <div className={styles.contPag}>
+                    <button>Anterior</button>
+                    <button>Siguiente</button>
+                </div>
+            } */}
         </div>
     )
 }

@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-
+import ReactDOM from "react-dom";
+import { connect } from "react-redux";
 import AddRandom from "./AddRandom";
 import AddTodo from "./AddTodo";
 import EditTodo from "./EditTodo";
 import ListAdd from "./ListAdd";
-import ReactDOM from "react-dom";
-
-import styles from './styles/Modal.module.css';
-import { connect } from "react-redux";
 import { addListTodo, renderModal } from "../../actions";
+import styles from './styles/Modal.module.css';
 
 const Modal = ({type,renderModal,addListTodo, edit}) => {
 
