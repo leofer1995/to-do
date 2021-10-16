@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    margin-top: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    overflow-x: auto ;
+}
+
+.contForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contForm input {
+    border: 0px solid black;
+    border-bottom: 1px solid black;
+    background: rgba(242,211,53,1);
+}
+
+.changeEdit{
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: #112140;
+    color: white;
+}
