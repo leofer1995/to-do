@@ -64,7 +64,7 @@ const rootReducer = (state = initialState, action) => {
     if(action.type === 'CHECK_TODO'){
         const check = state.todos.map(todo=>{
             if(todo.fact === action.payload){
-                todo.done = true
+                todo.done = !todo.done
             }
             return todo;
         });
