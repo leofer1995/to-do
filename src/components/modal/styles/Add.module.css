@@ -22,3 +22,19 @@
     margin-right: 10px;
     border:1px solid black;
 }
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 95%;
+        border: 1px solid black;
+        margin-top: 5px;
+        border-radius: 5px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        color: whitesmoke;
+        
+    }
+
+}
