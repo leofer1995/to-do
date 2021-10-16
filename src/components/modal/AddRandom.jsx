@@ -1,13 +1,18 @@
 import React, { useState } from "react";
+import {connect} from 'react-redux';
 import { addRandom } from "../../actions/index";
 import styles from './styles/AddRandom.module.css';
-import {connect} from 'react-redux';
+
 const AddRandom = ({addRandom}) => {
 
     const [input, setInput] = useState();
 
     const handleInputChange = ({target}) => {
         setInput(target.value)
+    }
+
+    const listRandom = async() => {
+        addRandom(input)
     }
 
     return(

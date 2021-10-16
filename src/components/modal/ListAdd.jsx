@@ -1,7 +1,8 @@
 import React from "react";
+import {connect} from 'react-redux'
 import Add from "./Add";
 import styles from './styles/ListAdd.module.css';
-import {connect} from 'react-redux'
+
 const ListAdd = ({todoAdd}) => {
 
     return(
