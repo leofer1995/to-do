@@ -1,7 +1,7 @@
 import React from "react";
-import styles from './styles/Todo.module.css';
 import {connect} from 'react-redux'
 import { deleteTodo, renderModalEdit, todoComplete } from "../../actions";
+import styles from './styles/Todo.module.css';
 
 const Todo = ({todo, done, todoComplete, deleteTodo, renderModalEdit}) => {
     return(

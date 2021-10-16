@@ -5,8 +5,6 @@ import {connect} from 'react-redux'
 import Modal from "./components/modal/Modal";
 
 function App({modal}) {
-
-  console.log(modal)
   return (
     <>
       <Todos />
