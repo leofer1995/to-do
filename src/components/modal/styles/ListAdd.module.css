@@ -1,0 +1,11 @@
+.container{
+    width: 90%;
+    height: 180px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+    background-color: rgba(17,33,64,0.8);
+}
